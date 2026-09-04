@@ -1,0 +1,52 @@
+# ============================================
+# Unity Git Attributes
+# 确保 Unity YAML 文件使用正确的合并策略
+# ============================================
+
+# Unity YAML files
+*.unity binary
+*.prefab binary
+*.asset binary
+*.meta binary
+
+# Text files
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.hlsl text
+*.json text
+*.xml text
+*.md text
+*.txt text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.psd binary
+*.tga binary
+*.bmp binary
+*.exr binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aif binary
+*.aiff binary
+
+# Video
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Compiled
+*.dll binary
+*.so binary
+*.dylib binary
+*.exe binary

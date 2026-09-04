@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6d6778ba5c3b14eb45dad9b683d3a0, type: 3}
+  m_Name: AK
+  m_EditorClassIdentifier: 
+  weaponName: AK
+  weaponId: 1
+  weaponPrefab: {fileID: 2385050453846972093, guid: a7ee18de6652e7345ab96b79d20103cc, type: 3}
+  bulletPrefab: {fileID: 7421406997154607228, guid: da2bbcbe939a4b54d84f21999970db7a, type: 3}
+  localPositionOffset: {x: 0.26, y: -0.58, z: 0}
+  damage: 20
+  fireInterval: 0.1
+  bulletSpeed: 19
+  fireType: 0
+  fireSfx: 2
+  pelletCount: 6
+  spreadAngleTotal: 70
+  laserLength: 0
+  laserWidth: 0

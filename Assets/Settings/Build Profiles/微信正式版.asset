@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 15001, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: "\u5FAE\u4FE1\u6B63\u5F0F\u7248"
+  m_EditorClassIdentifier: 
+  m_BuildTarget: 47
+  m_Subtarget: 0
+  m_ModuleName: WeixinMiniGame
+  m_BuildPath: "H:/tuanjieProject/My project/\u5FAE\u4FE1\u6B63\u5F0F\u7248"
+  m_PlatformSettings:
+    rid: 3477160480830390274
+  m_MiniGameSettings:
+    rid: 3477160480830390272
+  m_PlayerSettingsYaml:
+    m_Settings: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3477160480830390272
+      type: {class: WeixinMiniGameSettings, ns: WeChatWASM, asm: WxEditor}
+      data:
+        m_HostName: WeChat
+        m_Editor:
+          rid: 3477160480830390273
+        ProjectConf:
+          projectName: "\u5730\u7262\u5E78\u5B58\u8005"
+          Appid: wx73031031af064ec8
+          CDN: https://a.unity.cn/client_api/v1/buckets/cf624d99-9b2f-4204-9795-ca35d2627c61/release_by_badge/latest/content/
+          assetLoadType: 0
+          compressDataPackage: 0
+          VideoUrl: 
+          relativeDST: 
+          DST: H:\tuanjieProject\My project\
+          StreamCDN: 
+          bundleHashLength: 32
+          bundlePathIdentifier: StreamingAssets;
+          bundleExcludeExtensions: json;
+          AssetsUrl: 
+          MemorySize: 256
+          HideAfterCallMain: 1
+          preloadFiles: catalog.hash;
+          Orientation: 1
+          bgImageSrc: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+          dataFileSubPrefix: 
+          maxStorage: 200
+          defaultReleaseSize: 31457280
+          texturesHashLength: 8
+          texturesPath: Assets/Textures
+          needCacheTextures: 1
+          loadingBarWidth: 240
+          needCheckUpdate: 0
+          disableHighPerformanceFallback: 0
+          IOSDevicePixelRatio: 0
+        SDKOptions:
+          UseFriendRelation: 0
+          UseCompressedTexture: 0
+          UseMiniGameChat: 0
+          PreloadWXFont: 0
+          disableMultiTouch: 0
+        CompileOptions:
+          DevelopBuild: 0
+          AutoProfile: 0
+          ScriptOnly: 0
+          Il2CppOptimizeSize: 1
+          profilingFuncs: 0
+          Webgl2: 1
+          fbslim: 0
+          DeleteStreamingAssets: 1
+          ProfilingMemory: 0
+          CleanBuild: 1
+          CustomNodePath: 
+          autoAdaptScreen: 1
+          showMonitorSuggestModal: 1
+          enableProfileStats: 0
+          enableRenderAnalysis: 0
+          enablePerfAnalysis: 0
+          iOSAutoGCInterval: 10000
+          enableIOSPerformancePlus: 0
+          enableiOSMetal: 0
+          enableEmscriptenGLX: 0
+          brotliMT: 1
+          enableWasm2023: 0
+          enableRenderThread: 0
+        CompressTexture:
+          halfSize: 0
+          useDXT5: 0
+          bundleSuffix: bundle
+          parallelWithBundle: 0
+          bundleDir: 
+          dstMinDir: 
+          debugMode: 0
+          force: 0
+        PlayerPrefsKeys: []
+        FontOptions:
+          CJK_Unified_Ideographs: 1
+          C0_Controls_and_Basic_Latin: 1
+          CJK_Symbols_and_Punctuation: 1
+          General_Punctuation: 1
+          Enclosed_CJK_Letters_and_Months: 1
+          Vertical_Forms: 1
+          CJK_Compatibility_Forms: 1
+          Miscellaneous_Symbols: 1
+          CJK_Compatibility: 1
+          Halfwidth_and_Fullwidth_Forms: 1
+          Dingbats: 1
+          Letterlike_Symbols: 1
+          Enclosed_Alphanumerics: 1
+          Number_Forms: 1
+          Currency_Symbols: 1
+          Arrows: 1
+          Geometric_Shapes: 1
+          Mathematical_Operators: 1
+          CustomUnicode: 
+        m_AutomaticFillInstantGame: 0
+    - rid: 3477160480830390273
+      type: {class: WeixinMiniGameSettingsEditor, ns: WeChatWASM, asm: WxEditor}
+      data:
+        m_HostName: WeChat
+        tex: {fileID: 0}
+    - rid: 3477160480830390274
+      type: {class: MiniGamePlatformSettings, ns: UnityEditor.WeixinMiniGame, asm: UnityEditor.WeixinMiniGame.Extensions}
+      data:
+        m_Development: 0
+        m_ConnectProfiler: 0
+        m_BuildWithDeepProfilingSupport: 0
+        m_AllowDebugging: 0
+        m_WaitForManagedDebugger: 0
+        m_ManagedDebuggerFixedPort: 0
+        m_ExplicitNullChecks: 0
+        m_ExplicitDivideByZeroChecks: 0
+        m_ExplicitArrayBoundsChecks: 0
+        m_CompressionType: -1
+        m_InstallInBuildFolder: 0
+        m_MiniGameTextureSubtarget: 0
+        m_MiniGameFrameDebuggerBuild: 0
+        m_MiniGameShowVConsole: 0
+        m_CodeOptimization: 4
+        m_MiniGameGenerateWasmAnalysisReport: 0
+        m_MiniGameWasmInlineParam: 100

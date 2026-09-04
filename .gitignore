@@ -1,0 +1,85 @@
+# ============================================
+# Unity Git Ignore
+# ============================================
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Unity3D generated meta files (only ignore in Library, not Assets)
+# *.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds output
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Visual Studio cache
+[Aa]rtifacts/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package manager cache
+/packages/
+
+# Addressables build output (keep source data, ignore built bundles)
+/Assets/AddressableAssetsData/*/bin/
+/Assets/AddressableAssetsData/*/buildpath/
+ServerData/
+
+# WeChat minigame build output
+minigame_output/
+微信正式版/
+
+# Local test / temp files
+git_uploaded_file
+user_file2
+user_upload_file
+log_snippet.txt
+menu_screenshot/
+screenshot*.png
+uploaded_image.png
+
+# CCD local cache
+ccd_catalog_*.json
+
+# TextMeshPro generated (keep source, ignore generated)
+# (TMP assets are usually kept under Assets, so not ignored)
+
+# Crashlytics / crash dumps
+crashlytics-build.properties

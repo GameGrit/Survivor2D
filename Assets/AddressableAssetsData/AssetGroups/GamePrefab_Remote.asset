@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GamePrefab_Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: GamePrefab_Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 706fd6e20d0ab4f40bdafe7cfcdcb8d9
+  m_SerializeEntries:
+  - m_GUID: 07f05be1df0457743a75a6e1c3fa9ad2
+    m_Address: Assets/Art/Fonts/123.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2be2e9e2c0a532c409f3af133c515444
+    m_Address: Assets/Resources_moved/Prefab/Monster2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3388ad49bfbcda943b439c4b1a715ec4
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u624B\u67AA\u5B50\u5F39.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d9f81f03b2dd624d8baffbaf307bea6
+    m_Address: exp_orb_prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f3a96467f7e0ad409e6d4157b599851
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u6FC0\u5149\u67AA\u5B50\u5F39.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 638081c414fb3114fa470f677810a55d
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u6563\u5F39\u67AA.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70081b1ed7419e64da7efb0bf304dba9
+    m_Address: Assets/Art/Fonts/FZHeiSong SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ce44adc70f92c46bd7844bc1e64694
+    m_Address: Assets/Resources_moved/Prefab/number.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8957af65c8999ff43827e727d90646f5
+    m_Address: store_item_view
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e20890e8f1626d47a11f722b3e57c05
+    m_Address: Assets/Art/Fonts/FZHeiSong.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e3f29a2f89240d4f82362095ccfff7a
+    m_Address: Assets/Resources_moved/Prefab/Monster3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93808d8f6bd950b4a854516bc08f36df
+    m_Address: Assets/Resources_moved/Prefab/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a08e136ef13af5647b7275ece8b0392b
+    m_Address: "Assets/Art/Fonts/\u4ED3\u8033\u5468\u73C2\u6B63\u5927\u699C\u4E66
+      SDF.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7ee18de6652e7345ab96b79d20103cc
+    m_Address: Assets/Resources_moved/Prefab/Weapon/Ak.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9a14a09e05269e41951f27abcba1aeb
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u6FC0\u5149\u67AA.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4981542d8e1f9b46aefc087eb4a8809
+    m_Address: Monster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4bd3ee1d1504004e8585d748625b54d
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u673A\u5173\u67AA.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c579ed6bfec495b48ac78dd1c1eac8ef
+    m_Address: "Assets/Art/Fonts/\u4ED3\u8033\u5468\u73C2\u6B63\u5927\u699C\u4E66.ttf"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9a7187849e78a8469c1ce07dc03a24d
+    m_Address: bag_item_view
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da2bbcbe939a4b54d84f21999970db7a
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/Ak\u5B50\u5F39.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5da8b7df92881647b1c87e7f2e555e1
+    m_Address: Assets/Resources_moved/Prefab/TipsPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7b36db18df868d43b79cf30e102ece7
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u6563\u5F39\u67AA\u5B50\u5F39.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f049d9072da41b040aa2c155f489393c
+    m_Address: "Assets/Resources_moved/Prefab/Weapon/\u624B\u67AA.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e943bff26194596418b906fe8978584b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 79d9c5e37ca81d642acbf30c0b59c4e7, type: 2}
+    - {fileID: 11400000, guid: 82136c04c32596d4680ef2b1a4c39fc0, type: 2}

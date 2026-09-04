@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856ff354247c8254184a906f04f33c43, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  bgmList:
+  - type: 0
+    clip: {fileID: 8300000, guid: 2a7a99cfc7a325348b665bbfabf7018d, type: 3}
+  - type: 1
+    clip: {fileID: 8300000, guid: a44591848f09dfb4ba926687071f962d, type: 3}
+  sfxList:
+  - type: 1
+    clip: {fileID: 8300000, guid: 4c1ac3c2f9a2302458015b95d79a5539, type: 3}
+  - type: 7
+    clip: {fileID: 8300000, guid: 2ebad954ff789854992d292a24d6f65f, type: 3}
+  - type: 2
+    clip: {fileID: 8300000, guid: d3102f604e5846047844434a3bcb59ca, type: 3}
+  - type: 4
+    clip: {fileID: 8300000, guid: 967995f12baee87499e21ca43dc3da09, type: 3}
+  - type: 3
+    clip: {fileID: 8300000, guid: bf6346f5dc335d1428c33db8e9a7991f, type: 3}
+  - type: 5
+    clip: {fileID: 8300000, guid: 74daad1e513c14e43b75906ab6501e92, type: 3}

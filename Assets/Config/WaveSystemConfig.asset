@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206abbdba873f734a951e03f8d23a440, type: 3}
+  m_Name: WaveSystemConfig
+  m_EditorClassIdentifier: 
+  waves:
+  - waveName: 
+    monsters:
+    - monsterPrefab: {fileID: 0}
+      spawnWeight: 0
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 40
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 2be2e9e2c0a532c409f3af133c515444, type: 3}
+      spawnWeight: 53
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 8e3f29a2f89240d4f82362095ccfff7a, type: 3}
+      spawnWeight: 0
+      hpMultiplier: 0
+      speedMultiplier: 0
+    killsToNextWave: 0
+    totalMonsters: 0
+    breakTime: 0
+    hpMultiplier: 0
+    speedMultiplier: 0
+    expMultiplier: 0
+    maxAliveOverride: 0
+  - waveName: 
+    monsters:
+    - monsterPrefab: {fileID: 0}
+      spawnWeight: 0
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 40
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 2be2e9e2c0a532c409f3af133c515444, type: 3}
+      spawnWeight: 53
+      hpMultiplier: 0
+      speedMultiplier: 0
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 8e3f29a2f89240d4f82362095ccfff7a, type: 3}
+      spawnWeight: 0
+      hpMultiplier: 0
+      speedMultiplier: 0
+    killsToNextWave: 0
+    totalMonsters: 0
+    breakTime: 0
+    hpMultiplier: 0
+    speedMultiplier: 0
+    expMultiplier: 0
+    maxAliveOverride: 0
+  infiniteHpGrowth: 0.15
+  infiniteSpeedGrowth: 0.08
+  infiniteExpGrowth: 0.1
+  infiniteKillsPerWave: 20

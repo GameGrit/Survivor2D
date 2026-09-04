@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1f009a631fcaa4d9ee9d0def8ca733, type: 3}
+  m_Name: "Store\u6563\u5F39\u67AA"
+  m_EditorClassIdentifier: 
+  correspondingBagItem: {fileID: 11400000, guid: b471c67094644a34993415fafd540882, type: 2}
+  itemId: 3
+  itemName: "\u6563\u5F39\u67AA"
+  description: "\u5C04\u7A0B\u77ED\uFF0C\u5A01\u529B\u5F3A\u5927"
+  icon: {fileID: 21300000, guid: 4a54ca9d7f5eefe4580eab6acca014cf, type: 3}
+  price: 700
+  currencyType: 0

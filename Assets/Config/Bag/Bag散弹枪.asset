@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3bd8d6a9b6b164599bccf2958ef97e, type: 3}
+  m_Name: "Bag\u6563\u5F39\u67AA"
+  m_EditorClassIdentifier: 
+  bagItemId: 3
+  bagItemName: "\u6563\u5F39\u67AA"
+  spriteItem: {fileID: 21300000, guid: 4a54ca9d7f5eefe4580eab6acca014cf, type: 3}
+  weaponId: 3
+  isAdvanced: 0
+  obj: {fileID: 7453592755896012761, guid: c9a7187849e78a8469c1ce07dc03a24d, type: 3}

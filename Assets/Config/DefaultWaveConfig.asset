@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206abbdba873f734a951e03f8d23a440, type: 3}
+  m_Name: DefaultWaveConfig
+  m_EditorClassIdentifier: 
+  waves:
+  - waveName: "\u7B2C1\u5C42 - \u65B0\u624B\u6751"
+    monsters:
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 100
+      hpMultiplier: 1
+      speedMultiplier: 1
+    killsToNextWave: 15
+    totalMonsters: 15
+    breakTime: 3
+    hpMultiplier: 1
+    speedMultiplier: 1
+    expMultiplier: 1
+    maxAliveOverride: 12
+  - waveName: "\u7B2C2\u5C42 - \u521D\u89C1\u96BE\u5EA6"
+    monsters:
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 75
+      hpMultiplier: 1
+      speedMultiplier: 1
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 2be2e9e2c0a532c409f3af133c515444, type: 3}
+      spawnWeight: 25
+      hpMultiplier: 1.1
+      speedMultiplier: 1.1
+    killsToNextWave: 18
+    totalMonsters: 18
+    breakTime: 4
+    hpMultiplier: 1.2
+    speedMultiplier: 1
+    expMultiplier: 1.2
+    maxAliveOverride: 15
+  - waveName: "\u7B2C3\u5C42 - \u6E10\u5165\u4F73\u5883"
+    monsters:
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 75
+      hpMultiplier: 1.2
+      speedMultiplier: 1.1
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 8e3f29a2f89240d4f82362095ccfff7a, type: 3}
+      spawnWeight: 45
+      hpMultiplier: 1.2
+      speedMultiplier: 1.2
+    killsToNextWave: 20
+    totalMonsters: 24
+    breakTime: 5
+    hpMultiplier: 1.5
+    speedMultiplier: 1.1
+    expMultiplier: 1.2
+    maxAliveOverride: 20
+  - waveName: "\u7B2C4\u5C42 - \u6311\u6218\u5347\u7EA7"
+    monsters:
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 8e3f29a2f89240d4f82362095ccfff7a, type: 3}
+      spawnWeight: 50
+      hpMultiplier: 1.3
+      speedMultiplier: 1.1
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 50
+      hpMultiplier: 1.7
+      speedMultiplier: 1.3
+    killsToNextWave: 25
+    totalMonsters: 25
+    breakTime: 4
+    hpMultiplier: 1.5
+    speedMultiplier: 1.2
+    expMultiplier: 1.2
+    maxAliveOverride: 20
+  - waveName: "\u7B2C5\u5C42 - \u7CBE\u82F1\u6765\u88AD"
+    monsters:
+    - monsterPrefab: {fileID: 2981453416419435330, guid: b4981542d8e1f9b46aefc087eb4a8809, type: 3}
+      spawnWeight: 45
+      hpMultiplier: 1
+      speedMultiplier: 1.1
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 8e3f29a2f89240d4f82362095ccfff7a, type: 3}
+      spawnWeight: 30
+      hpMultiplier: 1.1
+      speedMultiplier: 1.1
+    - monsterPrefab: {fileID: 8472694986883429147, guid: 2be2e9e2c0a532c409f3af133c515444, type: 3}
+      spawnWeight: 25
+      hpMultiplier: 1.2
+      speedMultiplier: 1.2
+    killsToNextWave: 30
+    totalMonsters: 30
+    breakTime: 6
+    hpMultiplier: 2.2
+    speedMultiplier: 1.2
+    expMultiplier: 1.5
+    maxAliveOverride: 30
+  infiniteHpGrowth: 0.15
+  infiniteSpeedGrowth: 0.08
+  infiniteExpGrowth: 0.1
+  infiniteKillsPerWave: 20

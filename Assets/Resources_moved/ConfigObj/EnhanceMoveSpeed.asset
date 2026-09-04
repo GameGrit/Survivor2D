@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78249a9d786fc1645809ebead3a563fb, type: 3}
+  m_Name: EnhanceMoveSpeed
+  m_EditorClassIdentifier: 
+  enhanceType: 2
+  showName: "\u79FB\u52A8\u901F\u5EA6"
+  desc: "\u653B\u51FB\u901F\u5EA6 + 12%"
+  pickupRangeValue: 0
+  addAttackValue: 0
+  addMaxHpValue: 0
+  addMoveSpeedValue: 0
+  attackCdScale: 0.88
+  addBulletSpeedValue: 0
+  lifeStealRate: 0
+  sprite: {fileID: 21300000, guid: fc7900e536132a04b902c8a4c60192dc, type: 3}
